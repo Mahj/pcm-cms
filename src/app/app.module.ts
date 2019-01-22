@@ -18,7 +18,12 @@ import { AngularFireStorageModule } from 'angularfire2/storage';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 
 const firebase = {
- // your firebase web config
+ 	apiKey: "AIzaSyAh5ZcVC0MzZ34d0YcR56nTbRg46gx1naE",
+    authDomain: "porsche-club-monaco-mobile-cms.firebaseapp.com",
+    databaseURL: "https://porsche-club-monaco-mobile-cms.firebaseio.com",
+    projectId: "porsche-club-monaco-mobile-cms",
+    storageBucket: "porsche-club-monaco-mobile-cms.appspot.com",
+    messagingSenderId: "612774958338"
 }
 
 import { Firebase } from '@ionic-native/firebase';
